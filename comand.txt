@@ -1,0 +1,41 @@
+Создание и настройка Telegram бота
+
+Установка и/или обновление pip
+python -m pip install --upgrade pip
+
+Установка библиотеки Telegram
+pip install python-telegram-bot
+
+Установка библиотеки OpenAI
+pip install openai
+
+Установка аудиобиблиотеки
+pip install pydub
+
+Подготовка к запуску виртуального окружения
+python -m venv venv
+
+Запуск
+venv\Scripts\activate
+
+Установка подходящих параметров
+pip install -r requirements.txt
+
+Запуск самого бота
+python bot/main.py
+
+
+
+Деплой бота на Сервер
+
+sudo apt install git
+sudo apt install python3
+sudo apt install python3-pip
+pip3 install pyTelegramBotAPI
+sudo apt install nodejs
+sudo apt install npm
+npm install pm2 -g
+
+pm2 start main.py --interpreter=python3
+
+git clone https://github.com/n3d1117/chatgpt-telegram-bot.git
